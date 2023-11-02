@@ -1,5 +1,3 @@
-import './App.css'
-
 function AdviceSection() {
   return (
     <section>
