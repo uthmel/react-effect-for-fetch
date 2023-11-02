@@ -1,12 +1,16 @@
+import AdviceSection from './sections/Advice'
+import ArtsSection from './sections/Art'
+import UsersSection from './sections/Users'
 import './App.css'
 
-function AdviceSection() {
+function App() {
   return (
-    <section>
-      <h2>Art Section</h2>
-      <section className="art-list"></section>
-    </section>
+    <div className="main-layout">
+      <ArtsSection />
+      <UsersSection />
+      <AdviceSection />
+    </div>
   )
 }
 
-export default AdviceSection
+export default App
