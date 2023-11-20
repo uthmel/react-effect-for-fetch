@@ -30,7 +30,8 @@ Inside each sub-folder you will find:
 For each section you will need to make a fetch request using the following APIs:
 - Art - `https://boolean-api-server.fly.dev/art`
   - Note: Combine the base URL with an artworks "imageURL" property to form a complete URL to an image ( e.g. https://boolean-api-server.fly.dev/images/self-portrait.jpg )
-- Users - `https://randomuser.me/documentation`
+- Users - [`https://randomuser.me/documentation`](https://boolean-api-server.fly.dev/api-docs/#/contact/getAllContacts)
+  - Note: The API URL looks like `https://boolean-api-server.fly.dev/YOUR_GITHUB_USERNAME/contact` - replace `YOUR_GITHUB_USERNAME` with your actual github username
 - Advice - `https://api.adviceslip.com/`
 
 ## Core Deliverables
@@ -42,9 +43,9 @@ The `Art` list should render:
 - The complete publication history as an unordered list
 
 The `Users` list should render:
-- An image of the user
+- A profile image
 - The full name of the user
-- The background colour of each list item should change according to gender
+- The background colour of each list item should be set the the person's favourite colour
 - The email of the user
 
 > The `Advice` section is for the **Extension** only.
