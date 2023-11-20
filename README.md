@@ -28,8 +28,8 @@ Inside each sub-folder you will find:
 - a `components` folder with suggested components to create so you can practice props.
 
 For each section you will need to make a fetch request using the following APIs:
-- Art - `https://api.artic.edu/docs/#introduction`
-  - Note: You will find the following section helpful for the images: `https://api.artic.edu/docs/#images`
+- Art - `https://boolean-api-server.fly.dev/art`
+  - Note: Combine the base URL with an artworks "imageURL" property to form a complete URL to an image ( e.g. https://boolean-api-server.fly.dev/images/self-portrait.jpg )
 - Users - `https://randomuser.me/documentation`
 - Advice - `https://api.adviceslip.com/`
 
@@ -39,7 +39,7 @@ The `Art` list should render:
 - An image of the artwork
 - The title of the artwork
 - The artist's name
-- A list of subjects from `subject_titles`
+- The complete publication history as an unordered list
 
 The `Users` list should render:
 - An image of the user
