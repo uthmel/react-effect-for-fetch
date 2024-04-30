@@ -28,11 +28,11 @@ Inside each sub-folder you will find:
 - a `components` folder with suggested components to create so you can practice props.
 
 For each section you will need to make a fetch request using the following APIs:
-- Art - `https://boolean-uk-api-server.fly.dev/art`
+- Art - https://boolean-uk-api-server.fly.dev/art
   - Note: Combine the base URL with an artworks "imageURL" property to form a complete URL to an image ( e.g. https://boolean-uk-api-server.fly.dev/images/self-portrait.jpg )
 - Users - [https://boolean-uk-api-server.fly.dev/api-docs/#/contact/getAllContacts](https://boolean-uk-api-server.fly.dev/api-docs/#/contact/getAllContacts)
   - Note: The API URL looks like `https://boolean-uk-api-server.fly.dev/YOUR_GITHUB_USERNAME/contact` - replace `YOUR_GITHUB_USERNAME` with your actual github username
-- Advice - `https://api.adviceslip.com/`
+- Advice - https://api.adviceslip.com/
 
 ## Core Deliverables
 
